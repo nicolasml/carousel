@@ -14,4 +14,4 @@ Bootstrap Lab2 is waiting for you at https://sites.google.com/site/sacolominadaw
 
 ### Goal ###
 
-![You did it](https://github.com/nicolasml/carousel/images/GitIt.png "Git It. You did it!")
+![You did it](https://github.com/nicolasml/carousel/raw/master/images/GitIt.png "Git It. You did it!")
