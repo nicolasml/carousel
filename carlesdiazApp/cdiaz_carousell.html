@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>cdiaz Practise Lab 1</title>
+		<style>
+		button.accordion {
+			background-color: #eee;
+			color: #444;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+			transition: 0.4s;
+		}
+
+		button.accordion.active, button.accordion:hover {
+			background-color: #ddd; 
+		}
+
+		div.panel {
+			padding: 0 18px;
+			display: none;
+			background-color: white;
+		}
+
+		div.panel.show {
+			display: block;
+		}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container">
+		  <div class="jumbotron">
+			<h1>Submit Album Carles Diaz</h1>
+		  </div>
+		  <button class="accordion">Frank Amy Winehouse</button>
+		  <div class="panel">
+			<p>Frank is the debut studio album by English singer and songwriter Amy Winehouse, released on 20 October 2003 by Island Records. Production for the album took place during 2002 to 2003 and was handled by Winehouse, Salaam Remi, Gordon "Commissioner Gordon" Williams, Jimmy Hogarth and Matt Rowe. Its title alludes to the nature and tone of Winehouse's lyrics on the album, as well as one of her influences, Frank Sinatra.</p>
+		  </div>
+
+		  <button class="accordion">Track Information</button>
+		  <div class="panel">
+		    <p>"Stronger Than Me" is a song by English singer and songwriter Amy Winehouse from her debut studio album Frank (2003). Written by Winehouse and Salaam Remi, "Stronger Than Me" was released in the United Kingdom as the lead single on 6 October 2003, it ended up as the lowest-charting single from Frank and of Winehouse's career, peaking at number 71 on the UK Singles Chart. The song nevertheless won the Ivor Novello Award for Best Contemporary Song Musically and Lyrically in 2004.</p>
+		  </div>
+
+		  <button class="accordion">Expert Review</button>
+		  <div class="panel">
+		    <p>Confessional with punchlines – that’s how Amy Winehouse described her songwriting, providing the key to Asif Kapadia’s sober, unsensational and overwhelmingly sad film about her short and volatile life. In the absence of narration, Winehouse’s lyrics tell the story, floating onscreen in a handwritten font that creates the illusion of a coherent diary, from childhood to stardom.</p>
+		  </div>     
+		</div>
+
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					this.classList.toggle("active");
+					this.nextElementSibling.classList.toggle("show");
+			  }
+			}
+		</script>
+
+	</body>
+</html>
