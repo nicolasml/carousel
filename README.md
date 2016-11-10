@@ -1,4 +1,4 @@
-# Carousel
+# Accordion
 
 Bootstrap Lab2 is waiting for you at https://sites.google.com/site/sacolominadaw1617/unit-00-bootstrap/18-practise-lab-2
 
@@ -14,4 +14,31 @@ Bootstrap Lab2 is waiting for you at https://sites.google.com/site/sacolominadaw
 
 ### Goal ###
 
-![You did it](https://github.com/nicolasml/carousel/raw/master/images/GitIt.png "Git It. You did it!")
+>*Snapshot*
+
+![Accordion](/images/raw/master/accordion.png "Accordion")
+
+### Extract of Bootstrap code ###
+
+>*Some code extract*
+
+```
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Album Title and Artist
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+       Lorem ipsum ...
+      </div>
+    </div>
+  </div>
+  ...
+</div>
+
+```
