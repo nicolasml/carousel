@@ -16,7 +16,7 @@ Bootstrap Lab2 is waiting for you at https://sites.google.com/site/sacolominadaw
 
 >*Snapshot*
 
-![Accordion](https://raw.githubusercontent.com/nicolasml/carousel/master/images/accordion.png "Accordion")
+![Accordion](accordion.png "Accordion")
 
 ### Extract of Bootstrap code ###
 
